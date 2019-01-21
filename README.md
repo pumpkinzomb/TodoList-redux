@@ -1,9 +1,10 @@
 ### `TodoList-redux-app`
 
 ## React 연습중 세번째 실습
-## React로만 만들었던 기존[Todolist-app](http://pumpkinzomb.github.io/todolist-app/)을 React-Redux를 이용하여 다시 작업함
-<br><br>
-
+<br>
+React로만 만들었던 기존[Todolist-app](http://pumpkinzomb.github.io/todolist-app/)을 React-Redux를 이용하여 다시 작업함
+<br>
+<br>
 # 사용한 플러그인<br>
 1. Immutability Helpers<br>
 2. React-Redux<br>
@@ -15,4 +16,4 @@
 4. 좀 더 만들어봐야겠다는 생각이 들었음.
 
 
-[실습한 예제보기]
+[TodoList-redux 보기](http://pumpkinzomb.github.io/TodoList-redux)
