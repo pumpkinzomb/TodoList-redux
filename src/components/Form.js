@@ -34,7 +34,7 @@ const Form = ({
         }else{
             onEditSubmit(input.id,input.text,input.color,input.bolded,input.checked);
         }
-        onEdit("","color1",false,"add",0);
+        onEdit("","color1",false,"add",-1,false);
         _inputText.value = "";
         _inputText.className = "";
         _inputText.focus();

@@ -23,13 +23,12 @@ const Palette = ({
     onEdit=f=>f
     }) => {    
     const onBolded = () =>{
-        input.bolded=!input.bolded;
-        onEdit(input.text,input.color,input.bolded,input.formState,input.id);
+        onEdit(input.text,input.color,!input.bolded,input.formState,input.id,input.checked);
     }
     const onColor = (color) =>{
         if(input.color !== color){
             input.color=color;
-            onEdit(input.text,input.color,input.bolded,input.formState,input.id);
+            onEdit(input.text,input.color,input.bolded,input.formState,input.id,input.checked);
         }
     }
     return(

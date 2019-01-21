@@ -1,12 +1,13 @@
 import C from "./constants";
 
-export const editInput = (text,color,bolded,formState,id) => ({
+export const editInput = (text,color,bolded,formState,id,checked) => ({
     type:C.EDIT_INPUT,
     text,
     color, 
     bolded,
     formState,
-    id
+    id,
+    checked
 })
 
 export const addList = (id,text,color,bolded) =>({

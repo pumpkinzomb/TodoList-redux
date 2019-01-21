@@ -20,8 +20,8 @@ export const InputForm = connect(
             realignmentMode:state.realignmentMode
         }),
         dispatch => ({
-            onEdit(text,color,bolded,formState,id){
-                dispatch(editInput(text,color,bolded,formState,id));
+            onEdit(text,color,bolded,formState,id,checked){
+                dispatch(editInput(text,color,bolded,formState,id,checked));
             },
             onAdd(id,text,color,bolded){
                 dispatch(addList(id,text,color,bolded));
@@ -44,8 +44,8 @@ export const TodoLists = connect(
             realignmentMode:state.realignmentMode
         }),
         dispatch => ({
-            onEditList(id,text,color,bolded){
-                dispatch(editState(id,text,color,bolded))
+            onEditList(id,text,color,bolded,checked){
+                dispatch(editState(id,text,color,bolded,checked))
             },
             onAddList(){
                 dispatch(addState())

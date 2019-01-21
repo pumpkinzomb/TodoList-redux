@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-addons-update": "^15.6.2",
     "react-cookies": "^0.1.0",
@@ -28,5 +29,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage" : "http://pumpkinzomb.github.io/TodoList-redux"
+  "homepage": "http://pumpkinzomb.github.io/TodoList-redux"
 }

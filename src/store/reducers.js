@@ -9,7 +9,8 @@ export const form = (input={},action) => {
                 bolded:action.bolded,
                 color:action.color,
                 formState:action.formState,
-                id:action.id
+                id:action.id,
+                checked:action.checked
             }
         case C.ADD_STATE:
             return{
@@ -17,7 +18,8 @@ export const form = (input={},action) => {
                 bolded:false,
                 color:"color1",
                 formState:"add",
-                id:-1
+                id:-1,
+                checked:false
             }
         case C.EDIT_STATE:
             return{
@@ -25,7 +27,8 @@ export const form = (input={},action) => {
                 bolded:action.bolded,
                 color:action.color,
                 formState:"edit",
-                id:action.id
+                id:action.id,
+                checked:action.checked
             }
         default :
             return input
@@ -41,7 +44,8 @@ export const list = (list={},action) => {
                 text:action.text,
                 bolded:action.bolded,
                 color:action.color,
-                timestamp:action.timestamp
+                timestamp:action.timestamp,
+                checked:false
             }
         case C.EDIT_LIST:
             return (list.id !== action.id) ? 
