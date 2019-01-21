@@ -1,0 +1,16 @@
+const constants={
+    EDIT_INPUT:"EDIT_INPUT",
+    ADD_LIST:"ADD_LIST",
+    CHECK_TOGGLE_LIST:"CHECK_TOGGLE_LIST",
+    EDIT_LIST:"EDIT_LIST",
+    REMOVE_LIST:"REMOVE_LIST",
+    REALIGN_LIST:"REALIGN_LIST",
+
+    ADD_STATE:"ADD_STATE", //리스트 글쓰기모드
+    EDIT_STATE:"EDIT_STATE", //리스트 편집모드
+
+    REALIGN_MODE:"REALIGN_MODE", 
+    REALIGN_GET_FID:"REALIGN_GET_FID",
+}
+
+export default constants;

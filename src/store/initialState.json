@@ -1,0 +1,42 @@
+
+{
+  "form": {
+    "id":-1,
+    "text":"",
+    "bolded":false,
+    "color":"color1",
+    "formState":"add",
+    "checked":false
+  },
+  "lists": [
+    {
+      "id":0, 
+      "text":"오늘의 할 일1", 
+      "checked": false, 
+      "color":"color1", 
+      "bolded":true,
+      "timestamp": "Sat Mar 12 2016 16:12:09 GMT-0800 (PST)"
+    },
+    {
+      "id":1, 
+      "text":"클릭하면 체크가 됩니다.", 
+      "checked": true, 
+      "color":"color1", 
+      "bolded":false,
+      "timestamp": "Sat Mar 12 2016 16:12:09 GMT-0800 (PST)"
+    },
+    {
+      "id":2, 
+      "text":"글씨 색도 바꿔보세요.", 
+      "checked": false, 
+      "color":"color3", 
+      "bolded":false,
+      "timestamp": "Fri Mar 11 2016 12:00:00 GMT-0800 (PST)"
+    }
+  ],
+  "realignmentMode": {
+      "modeState":false,
+      "fId":-1,
+      "lId":-1
+  }
+}
