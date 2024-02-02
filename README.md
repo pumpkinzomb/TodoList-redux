@@ -1,7 +1,6 @@
 ### TodoList-redux
 
-[Todolist-app](http://pumpkinzomb.github.io/todolist-app)<br>
-을 React-Redux를 이용하여 다시 작업함
+[Todolist-app](http://pumpkinzomb.github.io/todolist-app)을 React-Redux를 이용하여 다시 작업함
 <br>
 
 #### 사용한 플러그인<br>
